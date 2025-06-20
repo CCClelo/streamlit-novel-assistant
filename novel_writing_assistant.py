@@ -32,7 +32,7 @@ OPENAI_OFFICIAL_HTTP_PROXY = os.getenv("OPENAI_OFFICIAL_HTTP_PROXY"); OPENAI_OFF
 CUSTOM_PROXY_BASE_URL = os.getenv("CUSTOM_PROXY_BASE_URL", "https://api.openai-next.com/v1"); HARDCODED_CUSTOM_PROXY_KEY = "sk-0rRacqNU0aY2DrOV1601DfE76a4d4a87A14f97383e25095b"
 MILVUS_ALIAS = "default"; MILVUS_HOST = os.getenv("MILVUS_HOST", "localhost"); MILVUS_PORT = os.getenv("MILVUS_PORT", "19530")
 OPENAI_EMBEDDING_MODEL = "text-embedding-3-small"; ST_MODEL_TEXT2VEC = "shibing624/text2vec-base-chinese"; ST_MODEL_BGE_LARGE_ZH = "BAAI/bge-large-zh-v1.5"
-OPENAI_LLM_MODEL = "gpt-3.5-turbo"; DEEPSEEK_LLM_MODEL = "deepseek-chat"; GEMINI_LLM_MODEL = "gemini-1.5-flash-latest" ; CUSTOM_PROXY_LLM_MODEL = "gpt-3.5-turbo"
+OPENAI_LLM_MODEL = "gpt-3.5-turbo"; DEEPSEEK_LLM_MODEL = "deepseek-chat"; GEMINI_LLM_MODEL = "gemini-2.5-flash" ; CUSTOM_PROXY_LLM_MODEL = "gpt-3.5-turbo"
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 SETTINGS_FILES_DIR = "./novel_setting_files"; NOVEL_MD_OUTPUT_DIR = "./novel_markdown_chapters"
 COLLECTION_NAME_LORE_PREFIX = "novel_lore_mv" ; COLLECTION_NAME_STORY_PREFIX = "novel_story_mv"
