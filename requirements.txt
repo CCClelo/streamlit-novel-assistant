@@ -1,0 +1,20 @@
+streamlit
+openai
+sentence-transformers
+torch
+transformers
+pymilvus
+httpx
+google-generativeai
+python-dotenv
+# 根据您的实际使用情况，可能还有其他库，例如 pandas, numpy 等
+# 最好是指定版本号，例如：
+# streamlit==1.20.0
+# openai==0.28.0  (或者您使用的具体版本，注意OpenAI SDK v1.x.x 和 v0.x.x API有很大不同)
+# sentence-transformers==2.2.2
+# torch==1.13.1 (或与sentence-transformers兼容的版本)
+# transformers==4.27.4 (或与sentence-transformers兼容的版本)
+# pymilvus==2.4.1 (或您使用的版本)
+# httpx==0.23.3
+# google-generativeai==0.5.0 (或您使用的版本)
+# python-dotenv==0.21.0
